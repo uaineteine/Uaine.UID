@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uaine.UID.Gen", "Uaine.UID.Gen\Uaine.UID.Gen.csproj", "{013B0A52-3B0F-4A25-A613-EE6065C715C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uaine.UID", "Uaine.UID\Uaine.UID.csproj", "{22EE8218-446B-48B9-8D47-937CACD49129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{013B0A52-3B0F-4A25-A613-EE6065C715C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013B0A52-3B0F-4A25-A613-EE6065C715C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013B0A52-3B0F-4A25-A613-EE6065C715C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013B0A52-3B0F-4A25-A613-EE6065C715C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22EE8218-446B-48B9-8D47-937CACD49129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EE8218-446B-48B9-8D47-937CACD49129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EE8218-446B-48B9-8D47-937CACD49129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EE8218-446B-48B9-8D47-937CACD49129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {790C2400-6E80-4ECC-9265-40A1BB784E39}
+	EndGlobalSection
+EndGlobal
