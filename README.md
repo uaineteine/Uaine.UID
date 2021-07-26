@@ -2,6 +2,8 @@
 
 A C# .NET project for a Unique ID generator, 256 bit
 
+Useful for generating serial keys
+
 ## Getting Started
 
 Add source project to solution with reference to get started or install via [NuGet](https://www.nuget.org/packages/Uaine.UID/)
