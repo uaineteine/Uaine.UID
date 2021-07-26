@@ -10,7 +10,7 @@ Add source project to solution with reference to get started or install via [NuG
 
 This project also includes a GUI generator for new UIDs
 
-[screenshot](https://raw.githubusercontent.com/uaineteine/Uaine.UID/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/uaineteine/Uaine.UID/master/images/screenshot.png)
 
 ## Version 1.0
 
