@@ -8,6 +8,10 @@ Useful for generating serial keys
 
 Add source project to solution with reference to get started or install via [NuGet](https://www.nuget.org/packages/Uaine.UID/)
 
+This project also includes a GUI generator for new UIDs
+
+[screenshot](https://raw.githubusercontent.com/uaineteine/Uaine.UID/master/images/screenshot.png)
+
 ## Version 1.0
 
 See the [changelog](changelog.txt) for details.

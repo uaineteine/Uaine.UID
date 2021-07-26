@@ -4,6 +4,15 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <Description>A C# .NET project for a Unique ID generator, 256 bit
+
+Useful for generating serial keys</Description>
+    <PackageProjectUrl>A C# .NET project for a Unique ID generator, 256 bit</PackageProjectUrl>
+    <RepositoryUrl>A C# .NET project for a Unique ID generator, 256 bit</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl />
+    <Copyright>Daniel Stamer-Squair 2021</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +21,17 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Uaine.UID\Uaine.UID.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

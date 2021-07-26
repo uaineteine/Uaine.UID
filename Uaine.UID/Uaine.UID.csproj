@@ -2,10 +2,32 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
+    <Description>A C# .NET project for a Unique ID generator, 256 bit
+
+Useful for generating serial keys</Description>
+    <Copyright>Daniel Stamer-Squair 2021</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/uaineteine/Uaine.UID</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/uaineteine/Uaine.UID</RepositoryUrl>
+    <RepositoryType />
+    <PackageTags>serial ID unique identification</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Uaine.Objects" Version="1.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
