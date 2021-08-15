@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using Uaine.Objects.Primitives.ID;
+using Uaine.Random;
 
 namespace Uaine.UID
 {
@@ -17,13 +18,14 @@ namespace Uaine.UID
         public UniqueID(ID16[] IDArray) : base(IDArray)
         {
         }
-        public UniqueID(ref Random rand, bool posonly) : base(randomIDArray(ref rand, posonly))
+        public UniqueID(bool posonly) : base(randomIDArray(posonly))
         {
             //make random one
         }
 
-        public static ID64[] randomIDArray(ref Random rand, bool posonly)
+        public static ID64[] randomIDArray(bool posonly)
         {
+            URandom rand = new URandom();
             ID64[] id256 = new ID64[nIDSegments];
             for (int i = 0; i < nIDSegments; i++)
             {
@@ -31,30 +33,14 @@ namespace Uaine.UID
             }
             return id256;
         }
-        public static ID64 randomID(ref Random rand, bool posonly)
+        public static ID64 randomID(ref URandom rand, bool posonly)
         {
             if (posonly == false)
             {
-                return new ID64(RandomLong(ref rand));
+                return new ID64(rand.RandomLong());
             }
             //else
-            return new ID64(RandomLongPosOnly(ref rand));
-        }
-        public static long RandomLong(ref Random rnd)
-        {
-            byte[] buffer = new byte[8];
-            rnd.NextBytes(buffer);
-            return BitConverter.ToInt64(buffer, 0);
-        }
-        public static long RandomLongPosOnly(ref Random rnd)
-        {
-            byte[] buffer = new byte[8];
-            rnd.NextBytes(buffer);
-            long value = BitConverter.ToInt64(buffer, 0);
-            return Math.Abs(value);
-            //BitArray bits = new BitArray(buffer);
-            //bits[0] = false;
-            //return BitConverter.ToInt64(ToByteArray(bits), 0);
+            return new ID64(rand.RandomLongPosOnly());
         }
         public static byte[] ToByteArray(BitArray bits)
         {

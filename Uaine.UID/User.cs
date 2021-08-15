@@ -1,5 +1,6 @@
 ﻿using System;
 using Uaine.Objects.Primitives;
+using Uaine.Random;
 
 namespace Uaine.UID
 {
@@ -8,8 +9,8 @@ namespace Uaine.UID
         public UniqueID ID;
         public User(string name, bool posUniqueIDOnly) : base(name)
         {
-            Random rand = new Random();
-            ID = new UniqueID(ref rand, posUniqueIDOnly);
+            URandom rand = new URandom();
+            ID = new UniqueID(posUniqueIDOnly);
         }
     }
 }

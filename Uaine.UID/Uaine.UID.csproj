@@ -13,10 +13,14 @@ Useful for generating serial keys</Description>
     <PackageTags>serial ID unique identification</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
+    <Company>Uaine Teine</Company>
+    <Authors>Daniel Stamer-Squair</Authors>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Uaine.Objects" Version="1.5.0" />
+    <PackageReference Include="Uaine.Objects" Version="1.6.0" />
+    <PackageReference Include="Uaine.Random" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
