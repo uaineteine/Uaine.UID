@@ -14,6 +14,8 @@ Useful for generating serial keys</Description>
     <PackageIconUrl />
     <Copyright>Daniel Stamer-Squair 2021</Copyright>
     <Version>1.0.1</Version>
+    <Authors>Daniel Stamer-Squair</Authors>
+    <Company>Uaine Teine</Company>
   </PropertyGroup>
 
   <ItemGroup>
