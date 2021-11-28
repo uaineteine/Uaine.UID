@@ -1,3 +1,7 @@
+--1.0.2--
+Using uaine.random package from 1.0 to 1.1.1
+Updated uaine.objects package from 1.6 to 1.7
+
 --1.0.1--
 Using uaine.random package for rng of 64 bits
 Updated uaine.objects package from 1.5 to 1.6
