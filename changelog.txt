@@ -1,3 +1,7 @@
+--1.0.4--
+Updated uaine.objects package from 1.10 to 1.11
+Updated uaine.random package from 1.1.1 to 1.1.2
+
 --1.0.3--
 Updated uaine.objects package from 1.7 to 1.10.0
 
