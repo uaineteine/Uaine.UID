@@ -5,7 +5,7 @@
     <Description>A C# .NET project for a Unique ID generator, 256 bit
 
 Useful for generating serial keys</Description>
-    <Copyright>Daniel Stamer-Squair 2022</Copyright>
+    <Copyright>Daniel Stamer-Squair 2023</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/uaineteine/Uaine.UID</PackageProjectUrl>
     <RepositoryUrl>https://github.com/uaineteine/Uaine.UID</RepositoryUrl>
@@ -15,7 +15,7 @@ Useful for generating serial keys</Description>
     <PackageIconUrl />
     <Company>Uaine Teine</Company>
     <Authors>Daniel Stamer-Squair</Authors>
-    <Version>1.0.4</Version>
+    <Version>2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
