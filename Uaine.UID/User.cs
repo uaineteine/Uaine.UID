@@ -1,5 +1,4 @@
-﻿using System;
-using Uaine.Objects.Primitives;
+﻿using Uaine.Objects.Primitives;
 using Uaine.Random;
 
 namespace Uaine.UID
