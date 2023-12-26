@@ -15,11 +15,13 @@ Useful for generating serial keys</Description>
     <PackageIconUrl />
     <Company>Uaine Teine</Company>
     <Authors>Daniel Stamer-Squair</Authors>
-    <Version>2.0</Version>
+    <Version>2.0.1</Version>
+    <AssemblyVersion>2.0.1</AssemblyVersion>
+    <FileVersion>2.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Uaine.Objects" Version="2.0.0" />
+    <PackageReference Include="Uaine.Objects" Version="2.0.1" />
     <PackageReference Include="Uaine.Random" Version="2.0.0" />
   </ItemGroup>
 

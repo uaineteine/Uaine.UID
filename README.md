@@ -12,7 +12,7 @@ This project also includes a GUI generator for new UIDs
 
 ![screenshot](https://raw.githubusercontent.com/uaineteine/Uaine.UID/master/images/screenshot.png)
 
-## Version 2.0
+## Version 2.0.1
 
 See the [changelog](changelog.txt) for details.
 
